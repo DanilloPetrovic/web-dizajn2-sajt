@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danilo Petrović | Web Dizajn 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/favico.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <span class="logo-header">Danilo Petrović</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#pocetna">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#omeni">O meni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#obrazovanje">Obrazovanje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vestine">Veštine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projekti">Projekti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="pocetna" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Zdravo, ja sam <span class="accent">Danilo Petrović</span>
+            </h1>
+            <p class="hero-subtitle">
+              Student Internet Tehnologija | Visoka ICT Škola
+            </p>
+            <p class="hero-desc">
+              Student sam Visoke ICT škole i budući Full-Stack Developer sa
+              interesovanjem za razvoj modernih web aplikacija.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projekti" class="btn btn-primary btn-lg me-3"
+                >Projekti</a
+              >
+              <a href="#kontakt" class="btn btn-outline-light btn-lg"
+                >Kontaktiraj me</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="hero-avatar">
+              <img src="images/bw1.png" alt="slika" class="ja" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="omeni" class="section about">
+      <div class="container">
+        <h2 class="section-title">O meni</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="about-img-wrapper">
+              <img src="images/bw2.png" alt="slika" class="ja" />
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Ko sam ja?</h3>
+            <p>
+              Imam 19 godina i trenutno sam student Visoke ICT škole. Završio
+              Tehničku školu u Novom Pazaru, smer Elektrotehničar informacionih
+              tehnologija, gde sam stekao osnovno znanje iz informacionih
+              tehnologija i programiranja. Pored toga, završio sam kurseve za
+              HTML, CSS, JavaScript, React i Backend razvoj u CentarNIT Academy,
+              gde sam prosirio svoje znanje i stekao praktično iskustvo u
+              razvoju web aplikacija. Najviše me interesuje Full-Stack razvoj,
+              jer mi pruža mogućnost da radim i na korisničkom interfejsu i na
+              serverskoj strani aplikacija. Takodje, kroz lične projekte
+              unapređujem svoje veštine i proširujem svoje znanje.
+            </p>
+            <div class="about-tags">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-primary">CSS</span>
+              <span class="badge bg-primary">JavaScript</span>
+              <span class="badge bg-primary">React</span>
+              <span class="badge bg-primary">React Native</span>
+              <span class="badge bg-primary">Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="obrazovanje" class="section education">
+      <div class="container">
+        <h2 class="section-title">Obrazovanje</h2>
+        <div class="education-grid">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="bi bi-mortarboard-fill"></i></div>
+            <h3 class="edu-title">Srednja škola</h3>
+            <p class="edu-school">Tehnička škola u Novom Pazaru</p>
+            <p class="edu-field">
+              Smer: Elektrotehničar informacionih tehnologija
+            </p>
+            <p class="edu-year">2021 — 2025</p>
+            <p class="edu-desc">
+              Stekao sam osnovno znanje iz informacionih tehnologija i
+              programiranja,
+            </p>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="bi bi-code-slash"></i></div>
+            <h3 class="edu-title">CNIT Academy</h3>
+            <p class="edu-school">IT obuka</p>
+            <p class="edu-field">Smer: Full Stack Development</p>
+            <p class="edu-year">2022 — 2025</p>
+            <p class="edu-desc">
+              Kroz projekte i zadatke, stekao sam znanje iz HTML, CSS,
+              JavaScript, React, Node.js i drugih tehnologija potrebnih za
+              razvoj web aplikacija.
+            </p>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon"><i class="bi bi-laptop"></i></div>
+            <h3 class="edu-title">Visoka ICT</h3>
+            <p class="edu-school">Student</p>
+            <p class="edu-field">Smer: Internet Tehnologije</p>
+            <p class="edu-year">2025 - danas</p>
+            <p class="edu-desc">
+              Trenutno sam student Visoke ICT škole, gde se fokusiram na
+              napredne tehnologije i razvoj web aplikacija.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vestine" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Veštine</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="bi bi-filetype-html skill-icon"></i>
+            <h4>HTML</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-filetype-css skill-icon"></i>
+            <h4>CSS</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-filetype-js skill-icon"></i>
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-filetype-jsx skill-icon"></i>
+            <h4>React</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-filetype-js skill-icon"></i>
+            <h4>Node.js</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-filetype-tsx skill-icon"></i>
+            <h4>TypeScript</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-database skill-icon"></i>
+            <h4>Prisma</h4>
+          </div>
+          <div class="skill-card">
+            <i class="bi bi-cloud-fill skill-icon"></i>
+            <h4>Firebase</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekti" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projekti</h2>
+        <div class="projects-grid">
+          <div class="card project-card">
+            <div class="card-img-top project-img">
+              <img src="images/chatifysc.png" alt="slika" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Chatify</h5>
+              <p class="card-text">
+                Chat aplikacija sa real-time porukama, grupnim chatovima i
+                korisničkim profilima. Napravljena sa React-om i Firebase-om.
+              </p>
+              <div class="project-tags">
+                <span class="badge bg-secondary">React</span>
+                <span class="badge bg-secondary">Firebase</span>
+              </div>
+              <a href="https://chatifybydanilo.netlify.app/" class="btn btn-primary mt-3">Detalji</a>
+            </div>
+          </div>
+          <div class="card project-card">
+            <div class="card-img-top project-img">
+              <img src="images/grafopressc.png" alt="slika" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Grafopres</h5>
+              <p class="card-text">
+                Sajt za štampariju sa mogućnošću pregledom proizvoda. Napravljen
+                sa HTML i CSS
+              </p>
+              <div class="project-tags">
+                <span class="badge bg-secondary">HTML</span>
+                <span class="badge bg-secondary">CSS</span>
+              </div>
+              <a href="https://danilopetrovic5725.netlify.app/" class="btn btn-primary mt-3">Detalji</a>
+            </div>
+          </div>
+          <div class="card project-card">
+            <div class="card-img-top project-img">
+              <img src="images/firstportfolio.png" alt="slika" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">
+                Moj prvi portfolio sajt. Kreiran uz pomoc HTML, CSS i
+                JavaScript-a.
+              </p>
+              <div class="project-tags">
+                <span class="badge bg-secondary">HTML</span>
+                <span class="badge bg-secondary">CSS</span>
+                <span class="badge bg-secondary">JavaScript</span>
+              </div>
+              <a href="https://pdanilo.netlify.app/" class="btn btn-primary mt-3">Detalji</a>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="contact-form-wrapper">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="ime" class="form-label">Ime</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="ime"
+                      placeholder="Unesite ime"
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="prezime" class="form-label">Prezime</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="prezime"
+                      placeholder="Unesite prezime"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email adresa</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Vas email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="poruka" class="form-label">Poruka</label>
+                  <textarea
+                    class="form-control"
+                    id="poruka"
+                    rows="5"
+                    placeholder="Vaša poruka..."
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary btn-lg px-5">
+                    Pošalji
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="logo-header">DP</span>
+            <span class="footer-name">Danilo Petrović</span>
+          </div>
+          <div class="footer-links">
+            <a href="#pocetna">Početna</a>
+            <a href="#omeni">O meni</a>
+            <a href="#obrazovanje">Obrazovanje</a>
+            <a href="#vestine">Veštine</a>
+            <a href="#projekti">Projekti</a>
+            <a href="#kontakt">Kontakt</a>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/DanilloPetrovic" aria-label="GitHub"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a href="https://instagram.com/pdanilo10" aria-label="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pdanilo8207@gmail.com"
+              target="_blank"
+              aria-label="Email"
+            >
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <p>© 2026 Danilo Petrović</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
